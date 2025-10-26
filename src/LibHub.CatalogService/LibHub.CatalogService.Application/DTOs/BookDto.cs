@@ -1,0 +1,13 @@
+namespace LibHub.CatalogService.Application.DTOs;
+
+public class BookDto
+{
+    public int BookId { get; set; }
+    public string Isbn { get; set; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
+    public string Author { get; set; } = string.Empty;
+    public string? Genre { get; set; }
+    public string? Description { get; set; }
+    public int TotalCopies { get; set; }
+    public int AvailableCopies { get; set; }
+}

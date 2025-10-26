@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.CatalogService.Api", "LibHub.CatalogService.Api\LibHub.CatalogService.Api.csproj", "{BBA0BC62-9B06-47F4-98DD-8AEB80CB19EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.CatalogService.Domain", "LibHub.CatalogService.Domain\LibHub.CatalogService.Domain.csproj", "{B7E8DD85-9F0D-4DAC-9022-92D832173244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.CatalogService.Application", "LibHub.CatalogService.Application\LibHub.CatalogService.Application.csproj", "{5D138C09-0F5E-446F-8FD8-1A6DC2A890D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.CatalogService.Infrastructure", "LibHub.CatalogService.Infrastructure\LibHub.CatalogService.Infrastructure.csproj", "{FC2A457E-8B8D-44AB-B355-20526C47DF1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{BBA0BC62-9B06-47F4-98DD-8AEB80CB19EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBA0BC62-9B06-47F4-98DD-8AEB80CB19EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBA0BC62-9B06-47F4-98DD-8AEB80CB19EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E8DD85-9F0D-4DAC-9022-92D832173244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E8DD85-9F0D-4DAC-9022-92D832173244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E8DD85-9F0D-4DAC-9022-92D832173244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E8DD85-9F0D-4DAC-9022-92D832173244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D138C09-0F5E-446F-8FD8-1A6DC2A890D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D138C09-0F5E-446F-8FD8-1A6DC2A890D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D138C09-0F5E-446F-8FD8-1A6DC2A890D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D138C09-0F5E-446F-8FD8-1A6DC2A890D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2A457E-8B8D-44AB-B355-20526C47DF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2A457E-8B8D-44AB-B355-20526C47DF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2A457E-8B8D-44AB-B355-20526C47DF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2A457E-8B8D-44AB-B355-20526C47DF1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
