@@ -1,0 +1,12 @@
+namespace LibHub.LoanService.Application.DTOs;
+
+public class LoanDto
+{
+    public int LoanId { get; set; }
+    public int UserId { get; set; }
+    public int BookId { get; set; }
+    public string Status { get; set; } = string.Empty;
+    public DateTime CheckoutDate { get; set; }
+    public DateTime DueDate { get; set; }
+    public DateTime? ReturnDate { get; set; }
+}
