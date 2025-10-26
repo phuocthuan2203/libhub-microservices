@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.LoanService.Api", "LibHub.LoanService.Api\LibHub.LoanService.Api.csproj", "{003E900E-131F-4087-98AA-86B9E179F59C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.LoanService.Domain", "LibHub.LoanService.Domain\LibHub.LoanService.Domain.csproj", "{B62132A9-265F-46AA-A4CE-05811718E88A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.LoanService.Application", "LibHub.LoanService.Application\LibHub.LoanService.Application.csproj", "{9EA55A03-7D26-4A03-9E29-91C441C043BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibHub.LoanService.Infrastructure", "LibHub.LoanService.Infrastructure\LibHub.LoanService.Infrastructure.csproj", "{577EC94E-DB8A-4982-8FC9-D80E53947AFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{003E900E-131F-4087-98AA-86B9E179F59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{003E900E-131F-4087-98AA-86B9E179F59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{003E900E-131F-4087-98AA-86B9E179F59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62132A9-265F-46AA-A4CE-05811718E88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62132A9-265F-46AA-A4CE-05811718E88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62132A9-265F-46AA-A4CE-05811718E88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62132A9-265F-46AA-A4CE-05811718E88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA55A03-7D26-4A03-9E29-91C441C043BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA55A03-7D26-4A03-9E29-91C441C043BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA55A03-7D26-4A03-9E29-91C441C043BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA55A03-7D26-4A03-9E29-91C441C043BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577EC94E-DB8A-4982-8FC9-D80E53947AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577EC94E-DB8A-4982-8FC9-D80E53947AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577EC94E-DB8A-4982-8FC9-D80E53947AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577EC94E-DB8A-4982-8FC9-D80E53947AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

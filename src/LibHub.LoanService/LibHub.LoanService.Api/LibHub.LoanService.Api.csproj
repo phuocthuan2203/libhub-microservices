@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.21" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LibHub.LoanService.Application\LibHub.LoanService.Application.csproj" />
+    <ProjectReference Include="..\LibHub.LoanService.Infrastructure\LibHub.LoanService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
